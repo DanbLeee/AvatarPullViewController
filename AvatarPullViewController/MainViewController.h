@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  AvatarPullViewController
 //
 //  Created by 李蛋伯 on 2017/6/16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface MainViewController : UIViewController
 
 @end
