@@ -16,6 +16,7 @@
 		0E3940931EF39E5C00A401C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3940921EF39E5C00A401C8 /* ViewController.m */; };
 		0E3940991EF3E24800A401C8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3940981EF3E24800A401C8 /* MainViewController.m */; };
 		0E39409C1EF3E68700A401C8 /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E39409B1EF3E68700A401C8 /* CustomNavigationBar.m */; };
+		0EB884651F0BFE8A00F8547C /* 2017-07-04 23_04_30.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0EB884641F0BFE8A00F8547C /* 2017-07-04 23_04_30.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0E3940981EF3E24800A401C8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		0E39409A1EF3E68700A401C8 /* CustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
 		0E39409B1EF3E68700A401C8 /* CustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
+		0EB884641F0BFE8A00F8547C /* 2017-07-04 23_04_30.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2017-07-04 23_04_30.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		0E39405D1EF39E3B00A401C8 /* AvatarPullViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0EB884631F0BFE8A00F8547C /* ScreenShots */,
 				0E3940611EF39E3B00A401C8 /* AppDelegate.h */,
 				0E3940621EF39E3B00A401C8 /* AppDelegate.m */,
 				0E3940971EF3E24800A401C8 /* MainViewController.h */,
@@ -145,6 +148,14 @@
 				0E3940851EF39E3B00A401C8 /* Info.plist */,
 			);
 			path = AvatarPullViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		0EB884631F0BFE8A00F8547C /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				0EB884641F0BFE8A00F8547C /* 2017-07-04 23_04_30.gif */,
+			);
+			path = ScreenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB884651F0BFE8A00F8547C /* 2017-07-04 23_04_30.gif in Resources */,
 				0E39406E1EF39E3B00A401C8 /* LaunchScreen.storyboard in Resources */,
 				0E39406B1EF39E3B00A401C8 /* Assets.xcassets in Resources */,
 			);
@@ -509,6 +521,7 @@
 				0E39408A1EF39E3B00A401C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E39408B1EF39E3B00A401C8 /* Build configuration list for PBXNativeTarget "AvatarPullViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +530,7 @@
 				0E39408D1EF39E3B00A401C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E39408E1EF39E3B00A401C8 /* Build configuration list for PBXNativeTarget "AvatarPullViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +539,7 @@
 				0E3940901EF39E3B00A401C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
