@@ -1,2 +1,1 @@
 # AvatarPullViewController
-test test
