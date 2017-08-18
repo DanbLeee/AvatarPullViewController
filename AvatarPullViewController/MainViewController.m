@@ -22,6 +22,13 @@
 @implementation MainViewController
 
 
+- (void)viewWillAppear:(BOOL)animated{
+    
+    [super viewDidAppear:animated];
+    [self.navigationController setNavigationBarHidden:NO animated:animated];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 

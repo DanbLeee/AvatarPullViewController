@@ -67,8 +67,18 @@ static const CGFloat headHeight = 160.0f;
     navBar.rightBtnImage = @"Setting.png";
     navBar.titleColor = [UIColor whiteColor];
     [self.view addSubview:navBar];
+    // 导航栏左按钮事件
+    [navBar.leftBtn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+
+// 页面跳转事件
+- (void)btnAction:(UIButton *)sender{
     
+    NSLog(@"111");
     
+    // 页面跳转
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 

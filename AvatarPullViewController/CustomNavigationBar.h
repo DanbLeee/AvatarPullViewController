@@ -15,6 +15,8 @@
 @property(nonatomic, strong) UIColor *titleColor;
 @property(nonatomic, strong) NSString *leftBtnImage;
 @property(nonatomic, strong) NSString *rightBtnImage;
-
+@property (nonatomic, strong) UIButton *leftBtn;
+@property (nonatomic, strong) UIButton *rightBtn;
+@property (nonatomic, strong) UILabel *titleLabel;
 
 @end

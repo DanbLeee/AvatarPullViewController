@@ -12,11 +12,6 @@
 @interface CustomNavigationBar ()
 
 
-@property (nonatomic, strong) UIButton *leftBtn;
-@property (nonatomic, strong) UIButton *rightBtn;
-@property (nonatomic, strong) UILabel *titleLabel;
-
-
 @end
 
 
@@ -37,7 +32,7 @@
 // 重写setter方法。优点：方便属性扩展，增加其功能，以及在外部接口不变的情况下，修改内部储存方式和逻辑等，优点相当多。
 - (void)setTitle:(NSString *)title{
     
-    _title = title; //该方法为getter方法本身，此处不能使用self. 写法，否则会造成循环引用。
+    _title = title; //下划线写法为set方法本身，此处为set方法内部，不能使用self. 写法，否则会造成循环引用。
     self.titleLabel.text = _title;
 }
 
